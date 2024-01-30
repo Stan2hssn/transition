@@ -2,7 +2,7 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-##Welcome
+## Welcome
 ```note
 Hey, if you want to update the boilerplate with the latest changes, contact me.
 ```
