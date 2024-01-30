@@ -2,6 +2,11 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+##Welcome
+```note
+Hey, if you want to update the boilerplate with the latest changes, contact me.
+```
+
 ## Setup
 
 Make sure to install the dependencies:
@@ -34,10 +39,6 @@ Locally preview production build:
 ```bash
 # pnpm
 pnpm run preview
-```
-
-```note
-Hey, if you want to update the boilerplate with the latest changes, contact me.
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
