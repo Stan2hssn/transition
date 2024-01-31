@@ -1,5 +1,5 @@
+import { addComponent } from "nuxt/kit"
 import type { Config } from "tailwindcss"
-
 // Default are on https://tailwindcss.nuxtjs.org/tailwind/config#default-configuration
 export default <Partial<Config>>{
   content: [
@@ -27,6 +27,26 @@ export default <Partial<Config>>{
         900: "#212121",
       },
     },
+    fontFamily: {
+      sans: ["Manrope", "sans-serif"],
+    },
+    fontSize: {
+      h1: ["8vw", { lineHeight: "3.5rem" }],
+    },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss/plugin")(function ({ addBase, theme }: { addBase: any; theme: any }) {
+      addBase({
+        html: {
+          "-webkit-font-smoothing": "antialiased",
+        },
+        hr: {
+          "box-sizing": "content-box",
+          border: "none",
+          margin: "0",
+          padding: "0",
+        },
+      })
+    }),
+  ],
 }
