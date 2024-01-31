@@ -14,6 +14,7 @@
           </p>
         </div>
       </div>
+
       <div class="flex flex-row justify-between w-full py-8">
         <NuxtLink :to="`/gallery/${+$route.params.id - 1}`">Previous Project</NuxtLink>
         <NuxtLink to="/gallery">Back to gallery</NuxtLink>

@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     content: resolve(__dirname, "/static/content"),
   },
   imports: {
-    dirs: ["utils", "store"],
+    dirs: ["utils", "store", "plugins"],
   },
   components: [
     {
@@ -22,4 +22,7 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  typescript: {
+    typeCheck: true,
+  },
 })
