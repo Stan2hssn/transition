@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="to" :class="class" @click="() => general.scrollLenis?.scrollTo(0, { immediate: true })">
+  <NuxtLink :to="to" :class="class">
     <slot />
   </NuxtLink>
 </template>

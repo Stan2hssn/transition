@@ -1,5 +1,6 @@
 <template>
   <div id="view">
+    <Transitor />
     <ThePreloader />
     <slot />
   </div>

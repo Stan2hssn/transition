@@ -24,5 +24,6 @@
   </div>
 </template>
 <script lang="ts" setup>
+definePageMeta(transition)
 const layout = "custom"
 </script>
